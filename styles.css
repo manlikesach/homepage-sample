@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -29,4 +29,65 @@ nav {
 
 nav ul {
     display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-items li:nth-last-of-type(1) {
+    margin: 0;
+}
+
+.nav-items li a {
+    color: #0E3234;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Hero Content */
+
+.header-container {
+    background: #7EE0E5;
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #0E3234;
+    margin-bottom: 24px;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 42px;
+    width: 416px;
+    margin-bottom: 24px;
+}
+
+header a {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #EEE5E9;
+    text-decoration: none;
+    padding: 16px 37px;
+    background: #5A189A;
+    border-radius: 8px;
+
 }
