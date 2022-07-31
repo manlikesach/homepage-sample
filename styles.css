@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 /* Navigation */
@@ -95,4 +96,18 @@ header a {
 
 header a:hover {
     transform: translateY(-8px)
+}
+
+/* Social icons section */
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 24px;
+}
+
+.social-icons a:nth-of-type(1) {
+    margin-left: 0;
 }
