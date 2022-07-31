@@ -3,3 +3,30 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+.nav-container {
+    background: #EEE5E9;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+    height: 72px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+
+nav ul {
+    display: flex;
+}
